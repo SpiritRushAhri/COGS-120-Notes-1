@@ -1,0 +1,60 @@
+{  
+   "UserObject":{  
+      "EXAMPLE_USER_ID":{  
+         "LastName":"Doe",
+         "id":"EXAMPLE_USER_ID",
+         "FirstName":"John",
+         "UCSDEmailAddress":"jdoe@ucsd.edu",
+         "Password":"password"
+      }
+   },
+   "NoteObject":{  
+      "EXAMPLE_NOTE_ID":{  
+         "Week":1,
+         "Body":"This note is an example!",
+         "id":"EXAMPLE_NOTE_ID",
+         "Name":"Example Note"
+      }
+   },
+   "NoteClassInstanceLink":{  
+      "EXAMPLE_NOTE_CLASS_INSTANCE_LINK":{  
+         "id":"EXAMPLE_NOTE_CLASS_INSTANCE_LINK",
+         "NoteObjectId":"EXAMPLE_NOTE_ID",
+         "ClassInstanceLinkId":"EXAMPLE_CLASS_INSTANCE_LINK"
+      }
+   },
+   "ClassObject":{  
+      "EXAMPLE_CLASS_ID":{  
+         "id":"EXAMPLE_CLASS_ID",
+         "Name":"COGS 120"
+      }
+   },
+   "LikeObject":{  
+      "b72b54579e7e48b39d721e85797d15ea":{  
+         "Active":false,
+         "UserObjectId":"EXAMPLE_USER_ID",
+         "id":"b72b54579e7e48b39d721e85797d15ea",
+         "NoteObjectId":"EXAMPLE_NOTE_ID"
+      }
+   },
+   "InstructorObject":{  
+      "EXAMPLE_INSTRUCTOR_ID":{  
+         "id":"EXAMPLE_INSTRUCTOR_ID",
+         "Name":"Philip Guo"
+      }
+   },
+   "ClassInstanceLink":{  
+      "EXAMPLE_CLASS_INSTANCE_LINK":{  
+         "ClassObjectId":"EXAMPLE_CLASS_ID",
+         "id":"EXAMPLE_CLASS_INSTANCE_LINK",
+         "InstructorObjectId":"EXAMPLE_INSTRUCTOR_ID"
+      }
+   },
+   "UserClassInstanceLink":{  
+      "EXAMPLE_CLASS_USER_LINK_ID":{  
+         "UserObjectId":"EXAMPLE_USER_ID",
+         "id":"EXAMPLE_CLASS_USER_LINK_ID",
+         "ClassInstanceLinkId":"EXAMPLE_CLASS_INSTANCE_LINK"
+      }
+   }
+}

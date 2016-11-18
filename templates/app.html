@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>COGS 120 - Notes</title>
+    <meta name='author' content='linkedin.com/in/yonajune'>
+    <meta name='viewport' content='user-scalable=no, initial-scale=1, minimal-ui, maximum-scale=1, minimum-scale=1, width=device-width' />
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet'>
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+    {% assets 'APP_CSS' %}<link href='{{ ASSET_URL }}' rel='stylesheet'>{% endassets %}
+  </head>
+  <body>
+    <div id='page-content' data-testing-option='{{ TESTING_OPTION }}'></div>
+    {% assets 'REACT_JS' %}<script type='text/javascript' src='{{ ASSET_URL }}'></script>{% endassets %}
+    {% assets 'APP_JS' %}<script type='text/babel' src='{{ ASSET_URL }}'></script>{% endassets %}
+  </body>
+</html>
